@@ -1,0 +1,11 @@
+<IFMOdule mod.rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^$ public/index.php [L]
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+</IFModule>
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "http://forexinfotech.co.in"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>

@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^perfectalgo\.co\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.perfectalgo\.co\.in$
+RewriteRule ^/?$ "https\:\/\/perfectalgo\.co\.in\/" [R=301,L]

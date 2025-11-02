@@ -1,0 +1,1796 @@
+* {
+    margin: 0 !important;
+
+    padding: 0 !important;
+    font-family: 'Trebuchet MS', 'Roboto', 'Ubuntu', sans-serif;
+
+user-select: none;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS'), url('trebuc.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Trebuchet MS Italic';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Trebuchet MS Italic'), url('Trebuchet-MS-Italic.woff') format('woff');
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Roboto', 'Ubuntu', sans-serif;
+}
+
+
+#sidebar {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    margin-top: 50px !important;
+    width: 4.7% !important;
+    border-right: 2px solid beige;
+    background-color: white !important;
+}
+
+#widgetmobilescreen {
+    /* height: 83vh !important; */
+
+    height: 73.5vh !important;
+    /* border: 2px solid white !important; */
+}
+
+
+
+#tradingview_c6b91 {
+    min-height: 100px;
+    width: 100%;
+    margin: 0px !important;
+
+}
+
+.tradingview-widget-container {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#tradingview_c6b91 {
+    min-height: 100px;
+    width: 100%;
+    margin: 0px !important;
+
+}
+
+.tradingview-widget-container {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+.nav-item {
+    list-style: none;
+}
+
+h5 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.firstrow {
+    /* padding: 16px !important; */
+    height: 42px;
+
+}
+
+.sidebarul li {
+    margin-top: -13px !important;
+    padding: 18px !important;
+
+}
+
+.sidebardown {
+    align-items: center;
+}
+
+.sidebardown li {
+    margin-top: 20px !important;
+    padding: 18px !important;
+}
+
+main {
+    width: 95.3% !important;
+}
+
+.bordergive {
+    border-bottom: 1px solid lightblue;
+    background-color: white !important;
+}
+
+.firstlogo {
+    border-bottom: 1px solid lightblue;
+    width: 100%;
+    padding: 20px !important;
+    padding-top: 10px !important;
+    margin-left: -90px !important;
+
+    height: 42px;
+}
+
+
+
+.card {
+    height: 310.8px;
+    border-bottom: 4px solid beige !important;
+    border-spacing: 2px !important;
+    border-left: 1.5px solid beige !important
+}
+
+#tradingview_c6b91 {
+    /* border-left: 3px solid beige; */
+    border-bottom: 3px solid beige;
+    border-right: 1.5px solid beige;
+
+    /* border-spacing: 2px !important; */
+
+}
+
+.table-responsive {
+    border-top: 3px solid beige;
+    background-color: white !important;
+    border-bottom: 0px !important;
+}
+
+tr {
+    border: 0px !important;
+}
+
+thead {
+    border: 0px !important;
+
+}
+
+tbody {
+    border: 0px !important;
+    background-color: gainsboro;
+
+}
+
+td {
+    border: 0px !important;
+
+    padding: 5px !important;
+}
+
+th {
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 4px !important;
+}
+
+td {
+    padding-left: 4px !important;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    order: 1;
+    margin-left: 10px !important;
+}
+
+.search-input {
+    order: 2;
+    flex-grow: 1;
+}
+
+.no-border {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-left: 10px !important;
+}
+
+form {
+    border: 1px solid black;
+    height: 40px;
+}
+
+.col label {
+    margin-left: 12px !important;
+    font-size: small !important;
+    margin-top: 0px !important;
+}
+
+.content {
+    margin: 0px !important;
+    margin-top: 0px !important;
+    background-color: lightcyan;
+}
+
+.fa-angle-up {
+    margin-left: 5px !important;
+
+}
+
+.fromleft {
+    margin-left: 0.5rem !important;
+}
+
+.rightside {
+    border-right: 0.5px solid black;
+    width: 80%;
+    height: 33px;
+    padding-top: 4px !important;
+
+}
+
+.last {
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+
+.dropdown-card {
+    display: none;
+    position: absolute;
+    /* To overlay on top of other content */
+    width: 100%;
+    /* or any desired width */
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+.dropdown-card .dropdown-row {
+    padding-top: 10px !important;
+}
+
+.dropdown-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+#dropdowncard3 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+#dropdowncard4 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+
+#dropdowncard2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+
+
+#dropdowncard5 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+
+#dropdowncard6 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+#dropdowncard7 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 87.4%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 10;
+    overflow-y: scroll;
+    padding: 0px 5px !important;
+
+}
+
+
+.description1 {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.dropdown-row2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.toggle-btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-btn i {
+    font-size: 14px;
+}
+
+.fa-plus {
+    color: black;
+
+}
+
+.fa-check {
+    color: blue;
+
+}
+
+
+.f {
+    width: 5.33% !important;
+}
+
+.tex1 {
+    font-size: 13px;
+    color: blue;
+}
+
+.tex {
+    font-size: 10px;
+}
+
+.increase {
+    width: 44.666667% !important;
+}
+
+.content {
+    height: 30px;
+}
+
+td {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+input {
+    border: wheat !important;
+    outline: wheat;
+}
+
+
+
+#detailsCard {
+    margin-left: 10px !important;
+    height: 330px !important;
+}
+
+.profile {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+
+.drop li {
+    margin-top: 15px !important;
+    margin-left: 7px !important;
+}
+
+
+.dropdown-container {
+    width: 330px;
+    height: 300px;
+    margin-top: 45px !important;
+
+    overflow-y: scroll;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 12px 15px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#closeDropdownBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content1 .option {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.content1 .option:last-child {
+    border-bottom: none;
+}
+
+.control button {
+    background-color: #e5e5e5;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.control input {
+    text-align: center;
+    width: 60px;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    color: red;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+
+}
+
+button.sell333 {
+    background-color: #da5244;
+    color: white;
+    width: 50%;
+    border: 0;
+
+    padding: 10px 15px !important;
+
+}
+
+button.buy333 {
+    background-color: #3687ED;
+    color: white;
+    border: 0;
+
+    width: 50%;
+    padding: 10px 15px !important;
+
+
+}
+
+
+.innerdropdown {
+    padding: 5px !important;
+    border: 1px solid #e5e5e5;
+    height: 37px;
+    margin: 0px !important;
+}
+
+.innervolume {
+    padding: 8px !important;
+    border: 1px solid #e5e5e5;
+}
+
+.in {
+    border: 1px solid #e5e5e5 !important;
+
+}
+
+.content1 {
+    padding: 10px !important;
+}
+
+.innervolume {
+    display: flex;
+    align-items: center;
+}
+
+.innervolume button {
+    flex: 1;
+    text-align: center;
+    background-color: white;
+
+}
+
+.clickedcross {
+    margin-right: 13px !important;
+}
+
+.innervolume input {
+    flex: 2;
+    text-align: center;
+    margin: 0 10px;
+    /* This provides some space between the buttons and the input */
+}
+
+.innervolume1 button {
+    flex: 1;
+    text-align: center;
+    background-color: white;
+}
+
+.innervolume1 input {
+    flex: 2;
+    text-align: center;
+    margin: 0 13px !important;
+    /* This provides some space between the buttons and the input */
+}
+
+
+.specialbutton {
+    /* border-right: 1px solid #e5e5e5 !important; */
+    width: 200px;
+    padding: 0 !important;
+}
+
+
+.lefter {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.righter {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.add {
+    width: 50px;
+    background-color: gainsboro;
+    padding: 10px !important;
+
+}
+
+.edit {
+    padding: 10px !important;
+
+}
+
+.crosslogo {
+    padding-right: 10px !important;
+    padding-top: 10px !important;
+    font-size: 24px;
+}
+
+.inn {
+    border: 1px solid black !important;
+    margin-left: 15% !important;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.lefttext {
+    font-size: 12.6px !important;
+    padding: 5px 35px !important;
+}
+
+.toptext {
+    margin: 7px 0 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.series {
+    margin-top: -27px !important;
+    margin-left: 25px !important;
+}
+
+
+.box {
+    padding: 10px;
+    width: 91%;
+    margin-left: 10px !important;
+    margin-top: -20px !important;
+    height: 35px;
+}
+
+.innn {
+    border: 1px solid black !important;
+    width: 91%;
+    ;
+    margin-left: 10px !important;
+    margin-top: -20px !important;
+    height: 35px;
+
+
+}
+
+.addbutton {
+    margin-left: 70% !important;
+}
+
+
+
+/* 
+.head111 {
+    display: none;
+    position: absolute; 
+    z-index: 10;
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.show {
+    display: block !important;
+}
+
+.head111 {
+    height: 430px;
+    background-color: white !important;
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    display: none;
+    z-index: 10;
+
+}
+
+.flip-horizontal {
+
+    color: #3687ED;
+    transform: scaleX(-1);
+}
+
+
+.para {
+    margin-bottom: -77px !important;
+}
+
+.profile:hover {
+    background-color: #e5e5e5;
+}
+
+
+
+
+#searchh {
+    height: 200px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+body.dark-mode *,
+body.dark-mode,
+body.dark-mode .card,
+body.dark-mode .search-form,
+body.dark-mode .dropdown-card,
+body.dark-mode .dropdown-card2,
+body.dark-mode .dropdown-row,
+body.dark-mode .dropdown-row1,
+body.dark-mode .dropdown-row2,
+body.dark-mode .searchbottom,
+
+body.dark-mode #sidebar,
+body.dark-mode #sidebar .firstlogo,
+body.dark-mode #sidebar .nav-item,
+body.dark-mode #sidebar .nav-link,
+body.dark-mode #sidebar .sidebardown {
+    background-color: #1f1f1f !important;
+    border-color: #2e2e2e !important;
+    color: #D1D1D2 !important;
+    margin: 0;
+    padding: 0;
+    /* white-space: normal !important; */
+
+    .uuuuuuuu {
+        fill: #D1D1D2 !important;
+    }
+
+
+    .toredbackground{
+        background-color: red !important;
+        color: white! important;
+    }
+    .uu1 {
+        fill: blue !important
+    }
+
+    .buy {
+        /* background-color: blue !important; */
+        color: green !important;
+    }
+
+    .sell {
+        /* background-color: red !important; */
+        color: red !important;
+    }
+
+    .sell333{
+        background-color: red !important;
+        color: white !important;
+    }
+
+    .buy333{
+        background-color: blue !important;
+        color: white !important;
+    }
+
+
+    .addbutton {
+        background-color: blue !important;
+        color: white !important;
+    }
+
+    .gameee {
+        background-color: #1f1f1f !important;
+    }
+
+    .outers {
+        background-color: white !important;
+    }
+
+    .speciala {
+        width: 24px !important;
+    }
+
+    .boldtext {
+        color: white !important;
+    }
+
+    .boldblue {
+        color: blue !important;
+        text-decoration-line: underline !important;
+    }
+
+    .smtext {
+        color: red !important;
+    }
+
+    .smtext1 {
+        color: red !important;
+    }
+
+    .div1 {
+        background-color: #3687ED !important;
+
+    }
+
+    .notbuy{
+        color:green !important;
+        background-color:  transparent !important
+    }
+
+    .notsell{
+        color: red !important;
+        background-color:  transparent !important
+
+    }
+
+    .tohover:hover {
+        border-bottom: 4px solid blue !important;
+    }
+
+    .custom-svg:hover .i {
+        fill: blue !important
+    }
+
+
+
+    .div:hover {
+        background-color: #3687ED !important;
+    }
+
+
+    i:hover {
+        color: blue !important;
+    }
+
+    .i {
+
+        fill: blue !important;
+    }
+
+    .togivered {
+
+        color: red !important;
+    }
+
+
+
+
+}
+
+.body.dark-mode .endsection {
+    border-top: 2px solid white !important;
+    background-color: black !important;
+}
+
+body.dark-mode .rightline {
+    border-right: 1px solid white !important;
+
+    padding-right: 18px !important;
+}
+
+
+body.dark-mode .notsell{
+    color: red !important;
+    background-color:  transparent !important
+}
+
+body.dark-mode .notbuy{
+    color: red !important;
+    background-color:  #2e2e2e !important
+}
+
+
+body.dark-mode .bordergive {
+    border-bottom: 1px solid white !important;
+}
+
+
+body.dark-mode .todark {
+    background-color: #2e2e2e !important;
+
+    border-radius: 12px;
+
+}
+
+body.dark-mode .todark1 {
+    background-color: 2e2e2e !important;
+
+    /* border-radius: 12px ; */
+
+}
+
+
+body.dark-mode .box.arrow-left::after {
+
+    /* background-color: green !important;  */
+    border-top: 10px solid transparent;
+    border-right: 10px solid #2e2e2e;
+    border-left: none;
+    border-bottom: 10px solid transparent;
+
+
+}
+
+body.dark-mode .box {
+    border-radius: 10px !important;
+
+}
+
+
+
+
+
+
+
+/* 
+#dropdowncard3{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    display: none;
+}
+
+.dropdown-card3{
+    overflow-y: scroll;
+    height: 270px;   
+} */
+
+:fullscreen,
+:fullscreen * {
+    background-color: white !important;
+
+
+}
+
+.table-responsive2 {
+    display: none;
+}
+
+
+.history {
+    display: none;
+
+}
+
+.custom-svg:hover .i {
+    fill: blue !important
+}
+
+:fullscreen .orders {
+    background-color: blue !important;
+    color: white !important;
+}
+
+:fullscreen .gameee {
+    background-color: white !important;
+    color: black !important;
+
+}
+
+:fullscreen .sell {
+    background-color: red !important;
+    color: white !important;
+}
+
+:fullscreen .buy {
+    background-color: green !important;
+    color: white !important;
+}
+
+:fullscreen .addbutton {
+    background-color: blue !important;
+    color: white !important;
+}
+
+
+.tradingview-widget-container,
+tradingview_c6b91 {
+    overflow-x: scroll;
+    /* overflow-y: scroll; */
+}
+
+i:hover {
+    color: blue !important;
+}
+
+.i:hover {
+    color: blue !important;
+}
+
+
+
+
+
+@media (min-width:1260px) {
+
+    .tradingview-widget-container,
+    tradingview_c6b91 {
+        overflow: hidden !important;
+    }
+}
+
+@media (max-width:991px) {
+
+    .head111 {
+
+        width: 90%;
+
+
+    }
+
+
+
+    .firstrow {
+        padding: 0 !important;
+    }
+
+    .sidebarul li {
+        padding-left: 5px !important;
+    }
+
+    .sidebardown li {
+        padding-left: 0 !important;
+    }
+
+    .sidebarul {
+        margin-top: 10px !important;
+    }
+
+    .sidebardown {
+        padding-left: 5px !important;
+        margin-top: 2px !important;
+
+        align-items: start !important;
+
+
+    }
+
+    .firstlogo {
+        padding-left: 5px !important;
+    }
+
+    i {
+        font-size: 24px !important;
+    }
+
+    .barsss {
+        width: 20px !important;
+    }
+
+    .viewss {
+        margin-top: 3rem !important;
+    }
+
+    .no1 {
+        width: 10% !important;
+    }
+
+    .no2 {
+        width: 90% !important;
+    }
+
+    .no3 {
+        width: 100% !important;
+        margin-top: 1.3rem !important;
+
+        margin-right: auto !important;
+    }
+
+
+
+    /* .bordergiveparent{
+        width:120% !important;
+    } */
+    /* .borderrevised{
+        width:120% !important;
+
+
+    } */
+
+    /* #sidebar {
+        justify-content: flex-start !important;
+        width: 8% !important;
+    }
+
+    */
+
+    .bordergiveparent {
+        width: 100% !important;
+    } 
+}
+
+
+
+/* .borderrevised {
+    width: 120% !important;
+} */
+
+
+@media (max-width:576px) {
+    .firstlogo {
+        padding-left: 0px !important;
+    }
+
+    .sidebarul li {
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+    }
+
+    .sidebardown li {
+        padding-top: 2px !important;
+        margin-top: 5px !important;
+        padding: 0 !important;
+    }
+
+    i {
+        font-size: 24px !important;
+    }
+
+    /* #sidebar {
+        justify-content: flex-start !important;
+        width: 12% !important;
+    } */
+
+    .bordergiveparent {
+        width:100% !important;
+    }
+
+
+
+    .addbutton {
+        margin-left: 0% !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* Mobile view */
+
+
+
+    /* formobile */
+
+    #navtoggler {
+        color: black !important;
+        background-color: white !important;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+#mainCard {
+    height: 73.5vh !important;
+}
+
+
+@media (max-width:992px) {
+    .tohide {
+        display: none !important
+    }
+
+    #mainCard {
+        height:90vh !important;
+        /* border-bottom: 3px solid red !important; */
+        width: 100% !important;
+    }
+    #contentRows{
+        height:79vh !important;
+        width: 100% !important;
+        /* border-bottom: 3px solid black !important; */
+
+        overflow-y: scroll !important;
+    }
+
+    #widgetmobilescreen {
+        /* height: 83vh !important; */
+    
+      height: 73.5vh !important;
+        /* border: 2px solid white !important;  */
+    }
+    
+
+
+    #widget-container{
+        width: 100% !important;
+    }
+    .toshow {
+        display: block !important;
+    }
+
+
+    #hiddingit {
+        display: none !important;
+
+    }
+
+    #margingiving {
+        margin-left: 20px !important;
+        display: flex !important;
+        justify-content: space-evenly !important;
+
+    }
+
+    #margingiving2 {
+        margin-left: 100px !important;
+
+
+    }
+
+    /* #toleftnavbartoggle {
+        position: absolute;
+        left: -2%;
+        top: 3.1%;
+        padding-top: 10px !important;
+        transform: translateY(-50%);
+        background-color: white;
+        width: 10% !important;
+        height: 44px !important;
+        border: 1px solid #e5e5e5 !important;
+        border-top: none !important;
+        border-left: none !important;
+
+        z-index: 1000;
+    } */
+
+    .margintop {
+        margin-top: 10px !important;
+    }
+
+
+    #detailsCard {
+        margin: 0px !important;
+        display: none;
+        height: 600px;
+        width: 100% !important;
+        
+
+        z-index: 100000;
+    }
+
+    .col-12{
+        flex:1 1 auto !important; 
+    }
+
+    #mainCard {
+        display: none;
+
+
+    }
+
+    .table-responsive {
+        display: none;
+    }
+
+    .orders {
+        display: none !important;
+    }
+
+    .viewss {
+        margin-top: 0px !important;
+    }
+
+
+    main {
+        height: 30vh !important;
+    }
+
+
+    .firstrow {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+
+    .alertbutton {
+        height: 70px !important;
+    }
+
+
+
+
+
+    .outers {
+        background-color: #f5f5f5;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+        position: relative;
+    }
+
+    .boldtext {
+        font-weight: bold;
+    }
+
+    .smtext {
+        font-size: 0.8rem;
+    }
+
+    .arrow {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid #f5f5f5;
+        position: absolute;
+        left: -20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .ticket-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 0.5rem; */
+    }
+
+
+
+    /* Card left arrow */
+
+    .box1 {
+        height: 90px !important;
+        margin-top: 5px !important;
+    }
+
+    .historymobilepage,
+    .ordersmobilepage {
+        height: 77vh !important;
+        overflow-y: scroll;
+    }
+
+    .trademobilepage {
+        height: 84vh !important;
+        overflow-y: scroll;
+
+    }
+
+    .smtext {
+        color: red !important;
+    }
+
+
+    .box {
+        width: 96%;
+        min-height: 68px !important;
+        padding: 20px;
+        position: relative;
+        max-height: 95px !important;
+        margin: 40px;
+        float: left;
+
+        margin-top: 6px !important;
+
+        margin-left: 10px !important;
+        border-radius: 10px !important;
+
+    }
+
+
+
+
+
+    .box.arrow-left:after {
+        content: " ";
+        position: absolute;
+        left: -10px;
+        top: 15px;
+        border-top: 10px solid transparent;
+        border-right: 10px solid whitesmoke;
+        border-left: none;
+        border-bottom: 10px solid transparent;
+    }
+
+
+
+    .innerdropdown {
+        width: 100% !important;
+    }
+
+    #marketExecutionDropdown {
+        width: 100%;
+        height: 100vh !important;
+        overflow-x: scroll;
+        overflow-y: scroll;
+
+        margin-top: 0px !important;
+        z-index: 100000;
+    }
+
+    .one1 {
+        display: none;
+
+    }
+
+    .one2 {
+        display: block !important;
+    }
+
+    .ersd {
+        padding-left: 41% !important;
+    }
+
+    .toleft {
+        margin-left: -64px !important;
+    }
+
+    /* .toright{
+
+    margin-left: 8rem !important;
+    
+} */
+    .fromdown {
+        margin-top: -11px !important;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width:332px) {
+
+    .fa-minus,
+    .fa-plus {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width:992px) {
+
+
+    .toshow {
+        display: none !important;
+    }
+
+
+
+}
+
+
+
+/* Will put it  */
+.fa-minus,
+.fa-plus {
+    font-size: 12px !important;
+}
+
+.endsection {
+    /* display: block !important; */
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    z-index: 1000;
+    top: 91%;
+    border-top: 1px solid white !important;
+    align-items: end;
+    position: fixed;
+
+    /* margin-left: -10px !important; */
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.small-icon {
+    font-size: 20px !important;
+}
+
+.iconss {
+    height: 28px !important;
+}
+
+i {
+    margin-left: 10px !important;
+}
+
+
+.margin {
+    margin-left: 10% !important;
+}
+
+
+#isthisflex {
+    display: none;
+}
+
+.trademobilepage {
+    display: none;
+}
+
+.positions {
+    padding-left: 20px !important;
+}
+
+.trademobilepage>* {
+
+    margin-top: 4px !important;
+
+
+}
+
+.historymobilepage {
+    display: none;
+}
+
+
+.mobile-alert {
+
+    width: 80%;
+    height: 300px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 20%;
+    left: 14%;
+    z-index: 9999;
+    text-align: center;
+    border: 3px solid blue;
+}
+
+.mobile-alert .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px !important;
+
+}
+
+.mobile-alert .right {
+    margin-left: auto;
+}
+
+
+/* .date{margin-left: 70px !important;
+
+margin-top: 5px !important;
+
+} */
+
+
+
+
+.car4 {
+    display: none;
+    position: fixed;
+
+    min-height: 200px;
+    bottom: 0px;
+    z-index: 1000000;
+
+    width: 100%;
+    /* height: 100px; */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.car5 {
+    display: none;
+    position: fixed;
+
+    min-height: 200px;
+    bottom: 0px;
+    z-index: 1000000;
+
+    width: 100% !important;
+    /* height: 100px; */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* .ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:  space-between;
+}
+
+.profit {
+    font-weight: bold;
+}
+
+.value, .label {
+    margin-top: 5px;
+} */
+
+
+
+
+
+.tohover:hover {
+    border-bottom: 4px solid blue !important;
+    margin-top: 10px !important;
+}
+
+.tohover {
+    height: 50px !important;
+    padding-bottom: 15px !important;
+}
+
+
+
+.border-right {
+    border-right: 1px solid black !important;
+}
+
+
+.rightline {
+    padding-right: 10px !important;
+    border-right: 1px solid #000;
+    /* box-sizing: border-box;  ensures the border and padding don't increase the total width */
+}
+
+rightline1 {
+    border-right: 1px solid #000;
+    /* box-sizing: border-box;  */
+
+    padding-left: 10px !important;
+}
+
+.torigth {
+
+    padding-left: 20px !important;
+}
+
+
+
+
+
+.rightline2 {
+    border-right: 1px solid black !important;
+
+    padding-left: 10px !important;
+
+}
+
+
+
+
+
+@media (max-width:579px) {
+
+    /* #toleftnavbartoggle {
+        width: 16.5% !important;
+        left: -4% !important;
+    } */
+
+
+
+}
+
+
+/* @media (min-width: 400px) and (max-width: 573px) {
+    #margingiving2 {
+        margin-left: 150px !important;
+
+
+    }
+} */
+
+
+@media (max-width: 399px) {
+    /* #margingiving2 {
+        margin-left: 108px !important;
+        overflow: visible;
+
+    } */
+}
+
+
+
+
+
+
+
+
+li {
+
+    list-style-type: none !important;
+    list-style: none !important;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .info-box {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 15px !important;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .info-box {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+.sell{
+    background-color: transparent !important;
+    color:red !important;
+
+}
+
+.buy{
+    background-color: transparent !important;
+    color:green !important;
+    
+}
+
+
+
+
+
+.displayblock{
+    display: block !important ;
+}
+
+.closeit{
+    display: none !important;
+}
+
+
+.displaynone{
+    display: none !important;
+}
+
+.displayflex{
+    display: flex !important;
+}
+
+
+.marketExecutionDropdown1{
+    height: 100vh !important;
+    margin-top: 0 !important;
+}
+
+
+
+
